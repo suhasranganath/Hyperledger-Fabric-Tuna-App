@@ -4,7 +4,7 @@ This application demonstrates the creation and transfer of tuna fish shipments b
 This application is part of LinuxFoundationX course that I took to learn about HyperLedger. 
 [Certificate(click to view!)](http://bit.ly/LFS171xCeritificate)
 
-# Setup
+## Setup
 <ol>
   <li> Make sure you are in <b>tuna-app</b> folder</li>
   <li> Start the Hyperledger Fabric network with the following command: </li>
@@ -20,7 +20,7 @@ $ node registerUser.js</code></pre>
 
 The network will be setup on port <b>8000</b>. You can access it through <b>localhost:8000</b>
 
-# Troubleshoot
+## Troubleshoot
 To resolve persmission issues while running <b>./startFabric.sh</b>
 <pre><code>$ chmod a+x startFabric.sh</code></pre>
 
@@ -29,7 +29,7 @@ If you get error while creating user/admin components. Try following commands
 $ node registerAdmin.js
 $ node registerUser.js</pre></code>
 
-# Shutdown the network and clean up images
+## Shutdown the network and clean up images
 
 Following commands remove all Docker containers and images created.
 <pre><code> $docker rm -f $(docker ps -aq) 
